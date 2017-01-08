@@ -1,5 +1,5 @@
-# Problem 3
-# Largest prime factor
+# Problem 7
+# 10001st prime
 #
 # By Eunsol
 
@@ -15,10 +15,4 @@ for i in range(3, int(math.sqrt(N)), 2):
             all[j] = 0
         prime.append(i)
 
-for i in range(len(prime)):
-    if N % prime[i] == 0:
-        N /= prime[i]
-        print(prime[i])
-        continue
-
-print (N)
+print (prime[10000])
