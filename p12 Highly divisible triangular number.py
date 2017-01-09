@@ -5,7 +5,6 @@
 
 def findDivisor(x):
     p = {}
-
     i = 0;
 
     while x > 1:
